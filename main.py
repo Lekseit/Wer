@@ -1,10 +1,9 @@
 
 def print_hi(name):
 
-    print(f'Hi, {name}'
+    print(f'Hi, {name}')
 
 if __name__ == '__main__':
-    print_hi('ветка main')
-    print("До свидания Алексей!!!!")
-    print("Пока")
+    print_hi(name=input("Введите свое имя: "))
+
 

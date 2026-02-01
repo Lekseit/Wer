@@ -17,7 +17,7 @@ def print_hi(name):
         logging.warning('Аргумент name не передан или пуст')
 
 if __name__ == '__main__':
-    logging.info('Запуск программы')
+    logging.info('Запуск программы:')
     try:
 
         print_hi(name=input("Введите свое имя: "))

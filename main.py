@@ -20,7 +20,7 @@ if __name__ == '__main__':
     logging.info('Запуск программы.')
     try:
 
-        print_hi(name=input("Введите свое имя: "))
+        print_hi(name=input("Введите свое имя: ")
     except Exception as e:
         logging.error(f'Произошла ошибка: {e}')
     logging.info('Завершение программы')
